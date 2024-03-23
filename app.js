@@ -422,3 +422,102 @@
 //         console.log(firstArr[i]+secondArr[j])
 //     }
 // }
+
+// ******** Chapter 21 (Changing Case) ********** //
+// var allLower = userInput.toLowerCase();
+
+// var x = "SometHingS"
+// x = x.toLowerCase();
+
+// var y = "SometHingS"
+// y = y.toUpperCase();
+
+// var guest = "Albert"
+// var newGuest = guest.toLowerCase();
+
+// var pets = ["DOG", "CAT", "OX", "DUCK", "FROG", "FLEA"];
+// var lowerCasePet = pets[0].toLowerCase();
+// console.log(lowerCasePet);
+
+// var country = 'pakistan'
+// var upperCaseCountry = country.toUpperCase()
+// alert(upperCaseCountry)
+
+// var cityName = "kaRacHi";
+// var capitalizedCityName  = cityName.charAt(0).toUpperCase() + cityName.slice(1).toLowerCase();
+// alert(capitalizedCityName)
+
+// ******** Chapter 22 - 25 (Strings) ********** //
+// var sameWords = "captain"
+// var sliceWords = sameWords.slice(1,3)
+
+// var a = 'Hey there, this is a long string'
+// var char = a.length
+
+// var animal = "elephant";
+// var seg = animal.slice(2,6)
+
+// var anyString = 'JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.'
+// var numOfChar = anyString.length
+
+// var word = "Expandable"
+// var numberOfCharacters = word.length;
+// var slicedString = word.charAt(0) + word.slice(-3);
+
+// var text = "To be or not to be.";
+// var indx = text.indexOf("be");  // Ans: 3
+
+// var text = "To be or not to be.";
+// var indx = text.lastIndexOf("be");  // Ans: 16
+
+// var text = "The dogs go for a walk, but the cats go home.";
+// var indx = text.lastIndexOf("go");
+
+// if (text.charAt(indexNum) !== ""){}
+
+// var string = "abcde"
+// var indx = string.charAt(2)
+
+// var text = "today is 23rd March,2024."
+// var char;
+// for(let i=0; i<text.length; i++){
+//     if(i == 10){
+//         char = text[i];
+//         break;
+//     }
+// }
+// console.log(char)
+
+// var str = "Ice cream"
+// var x = str.slice(-1)
+// var x = str.charAt(str.length - 1)
+// console.log(x)
+
+// var userInp = prompt("Write any text whose length should be greater than 5:")
+// if(userInp.length >= 5){
+//    var char = userInp[4];
+//    alert('Character at index 5: '+char)
+// } else {
+//     alert("Invalid Input")
+// }
+
+// if(str[2] === 's'){}
+
+// var text = 'Pakistan'
+// var arr = [];
+// for(let i=0; i<text.length; i++){
+//     arr[i] = text[i];
+// }
+// console.log(arr)
+
+// var reply = "no, I don't think so, no problem."
+// var revisedReply = reply.replace('no',"yes")
+// console.log(revisedReply)
+
+// var str = "The WorldWar 1"
+// var newStr = str.replace('1','one')
+// console.log(newStr)
+
+// var x = "abbas"
+// var y = x.replace(/a/g, "z");
+// console.log(y)
