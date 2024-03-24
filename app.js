@@ -602,4 +602,18 @@
 // console.log(typeof intStr,intStr)
 
 // ******** Chapter 30 (Controlling the length of decimals) ********** //
+// var num = 45.3299123;
+// var newNum = num.toFixed(4).toString()
+// console.log(newNum)
+
+// var num = 10.314512
+// num = parseFloat(num.toFixed(2).toString());
+// console.log(num)
+
+// if(num.toFixed(2).toString().length > 4){}
+
+// var rand = Math.random()*100
+// alert(rand.toFixed(2).toString())
+
+// ******** Chapter 31 - 34 (Date & Time) ********** //
 
