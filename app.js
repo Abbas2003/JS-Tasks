@@ -521,3 +521,85 @@
 // var x = "abbas"
 // var y = x.replace(/a/g, "z");
 // console.log(y)
+
+// ******** Chapter 26 (Rounding Numbers) ********** //
+// var num = 19.6
+// console.log(Math.round(num))
+
+// var origNum = 2.2
+// var roundNum = Math.ceil(origNum)
+// console.log(roundNum)
+
+// var origNum = 2.2
+// var roundNum = Math.floor(origNum)
+// console.log(roundNum)
+
+// var num = 9.4
+// var roundNum = Math.round(num)
+// console.log(roundNum)
+
+// var num = 0.5
+// var roundNum = Math.floor(num)
+// console.log(roundNum)
+
+// ******** Chapter 27 (Random Numbers) ********** //
+// var rand = Math.random();
+// var numInRange = Math.ceil(rand * 50);
+// console.log(numInRange)
+
+// var rand = Math.random();
+// console.log(rand)
+
+// var rand = Math.random() * 6;
+// var dice = Math.ceil(rand)
+// console.log(dice)
+
+// var rand = Math.random() * 2;
+// var toss = Math.floor(rand);
+// if(toss == 1){
+//     console.log("Heads")
+// } else {
+//     console.log("Tails")
+// }
+// console.log('Toss: '+toss)
+
+// ******** Chapter 28, 29 (Converting Strings) ********** //
+// var str = +'33'  // Method-1
+// console.log(typeof str)
+// var str = '33'   // Method-2
+// var int = parseInt(str)
+// console.log(typeof int)
+
+// var str = '123'   
+// var jsFunc = parseInt(str)
+// console.log(typeof jsFunc)
+
+// var str = "92.4";
+// var float = parseFloat(str)
+// console.log(float)
+
+// var userInp = prompt("Enter value for conversion: ")
+// var check = false
+// var convVal;
+// if(isNaN(userInp)){
+//     alert("Conversion not possible")
+// } else {
+//     alert("Conversion is possible")
+//     check = true;
+// }
+// if(check === true){
+//     convVal = parseInt(userInp)
+//     alert("Type = "+typeof convVal+"\nValue = "+convVal)
+// }
+
+// var num = 42
+// var numString = num.toString();
+// var type = typeof numString
+// console.log(type,numString)
+
+// var str = "3.14"
+// var intStr = parseInt(str)
+// console.log(typeof intStr,intStr)
+
+// ******** Chapter 30 (Controlling the length of decimals) ********** //
+
