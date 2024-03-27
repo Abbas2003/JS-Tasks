@@ -616,4 +616,189 @@
 // alert(rand.toFixed(2).toString())
 
 // ******** Chapter 31 - 34 (Date & Time) ********** //
+// var dObj = new Date();
 
+// var dObj = new Date();
+// var dStr = dObj.toString()
+
+// var d = new Date();
+// var day = d.getDay()
+
+// var d = new Date();
+// var day = d.getDay()
+// var dayNames = ["Sunday", "Monday", "Tueday", "Wednesday", "Thursday", "Friday", "Saturday"]
+// alert(day + " " + dayNames[day])
+
+// var dObj = new Date();
+// var date = dObj.getDate()
+// var day = dObj.getDay()
+// var month = dObj.getMonth()
+// var year = dObj.getFullYear()
+// var hrs = dObj.getHours()
+// var mins = dObj.getMinutes()
+// var sec = dObj.getSeconds()
+
+// 0332 7868823
+
+// var later = new Date("31 Dec, 2020")
+
+// var prev = new Date("2 Feb, 1992")
+
+// var msDiff = new Date().getTime() - new Date("Jan 1, 1980").getTime();
+// console.log(msDiff)
+
+// var d = new Date()
+// d.setFullYear(2022)
+// console.log(d)
+
+// var d = new Date();
+// var changeToJan = d.setMonth(0);
+// console.log(changeToJan)
+
+// var d = new Date();
+// d.setDate(3)
+
+// var date = new Date("Jan 1, 2024 12:30:02");
+// var userInp = prompt("Enter Minutes: ")
+// date.setMinutes(userInp)
+// console.log(date)
+
+// var date = new Date("Mar 23, 2024 12:30");
+// var userInp = prompt("Enter Hours: ")
+// date.setHours(userInp);
+// console.log(date);
+
+// var userInp = prompt("Enter your Date of birth: ")
+// var currentDate = new Date()
+// var dob = new Date(userInp)
+// var ageInMS = currentDate - dob
+// var ageInYears = ageInMS / (1000 * 60 * 60 * 24 * 365)
+// var years = Math.floor(ageInYears)
+// console.log("Age = " + years + " Years")
+
+// ******** Chapter 35 - 37 (Functions) ********** //
+// function displayAlert(){
+//     alert("Welcome to JS World")
+// }
+
+// function askName(){
+//     var userName = prompt("Enter your name: ")
+// }
+// askName()
+
+// function foo(fun1, fun2){
+//     alert(fun1 + " " + fun2)
+// }
+// function firstName(){
+//     var fname = prompt("Enter your first name: ")
+//     return fname
+// }
+// function lastName(){
+//     var lname = prompt("Enter your last name: ")
+//     return lname
+// }
+// foo(firstName(), lastName())
+
+// function concat(a,b,c){
+//     var concat = a + b + c
+//     console.log(concat)
+// }
+// var str = "Something.."
+// concat(str,"goes really..",101)
+
+// function concat(p1, p2){
+//     var res = p1 + p2
+//     return res
+// }
+
+// function mul(p1,p2,p3){
+//     var res = p1*p2*p3
+//     console.log(res)
+// }
+
+// function arrayOfNum(array) {
+//     var sum = 0;
+//     for (let i = 0; i < array.length; i++) {
+//         sum = sum + array[i]
+//     }
+//     var avg = sum / array.length
+
+//     return avg
+// }
+// var arr = [1, 2, 3, 4, 5]
+// arrayOfNum(arr)
+
+// function sum(x,y){
+//     return x + y
+// }
+
+// function foo(){
+//     return "I am a Champ!"
+// }
+// var msg = foo();
+// alert(msg)
+
+// function wordCount(word){
+//     var count = 0
+//     for(var i=0; i<word.length; i++){
+//         count++;
+//     }
+//     console.log(count+" "+word)
+// }
+// var str = "word"
+// wordCount(str)
+
+// function setYear(year){
+//     var d = new Date();
+//     d.setFullYear(year);
+//     return d
+// }
+// var res = setYear(2002)
+// console.log(res)
+
+// function yourAge(dob){
+//     var ageInMS = new Date() - new Date(dob);
+//     var ageInYrs = ageInMS / (1000*60*60*24*365);
+//     var age = Math.floor(ageInYrs)
+//     console.log(age)
+//     return age
+// }
+// yourAge("15 Apr, 2003")
+
+// var arr = ['zaid','haris','raza','ali','hassan','hussain','fatima']
+// var userInp = prompt("Enter the name to check: ")
+// function check(array,userInp){
+//     var status = false
+//     for(var i=0; i<array.length; i++){
+//         if(array[i] === userInp){
+//             status = true
+//         }
+//     }
+//     console.log(status)
+// }
+// check(arr,userInp)
+
+// function repeat(x){
+//     return x.repeat(10)
+// }
+// var str = "JS"
+// var result = repeat(str)
+// console.log(result)
+
+// function reverseArray(array){
+//     return array.reverse()
+// }
+// var myArray = ['a','b','c','d']
+// var res = reverseArray(myArray)
+// console.log(res)
+
+// ******** Chapter 38 (Local vs. Global Variables) ********** //
+function demo(){}
+
+// var globalVar = 'Valuable'
+// function usage(x){
+//     console.log(x)
+// }
+// usage(globalVar)
+
+// ******** Chapter 39, 40 (Switch Statements) ********** //
